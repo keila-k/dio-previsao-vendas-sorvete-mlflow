@@ -3,6 +3,8 @@ cat > README.md << 'EOF'
 
 Projeto de regressão para prever vendas diárias de sorvete a partir da temperatura, com pipeline reprodutível e rastreabilidade via MLflow.
 
+Possui algumas capturas de tela (screenshots) de processo e procedimentos.
+
 ## Objetivo
 - Treinar um modelo para prever `sales` com base em `temperature`
 - Registrar experimentos (parâmetros e métricas) com MLflow
@@ -19,3 +21,14 @@ Projeto de regressão para prever vendas diárias de sorvete a partir da tempera
 python -m venv .venv
 source .venv/Scripts/activate
 pip install -r requirements.txt
+
+## Prints
+
+### MLflow
+![MLflow overview](assets/prints/05-mlflow-overview.png)
+![MAE](assets/prints/06-mlflow-mae.png)
+![Metrics](assets/prints/07-mlflow-metrics.png)
+
+### Ambiente
+![VS Code](assets/prints/02-vscode.png)
+![Git Bash](assets/prints/03-gitbash.png)
