@@ -10,6 +10,17 @@ Possui algumas capturas de tela (screenshots) de processo e procedimentos.
 - Registrar experimentos (parâmetros e métricas) com MLflow
 - Disponibilizar predição em tempo real via API (FastAPI)
 
+## Prints
+
+### MLflow
+![MLflow overview](assets/prints/05-mlflow-overview.png)
+![MAE](assets/prints/06-mlflow-mae.png)
+![Metrics](assets/prints/07-mlflow-metrics.png)
+
+### Ambiente
+![VS Code](assets/prints/02-vscode.png)
+![Git Bash](assets/prints/03-gitbash.png)
+
 ## Estrutura
 - `inputs/` dados de entrada (inclui sentenças exigidas pela DIO)
 - `src/` pipeline (análise de sentenças, treino, API)
@@ -22,13 +33,3 @@ python -m venv .venv
 source .venv/Scripts/activate
 pip install -r requirements.txt
 
-## Prints
-
-### MLflow
-![MLflow overview](assets/prints/05-mlflow-overview.png)
-![MAE](assets/prints/06-mlflow-mae.png)
-![Metrics](assets/prints/07-mlflow-metrics.png)
-
-### Ambiente
-![VS Code](assets/prints/02-vscode.png)
-![Git Bash](assets/prints/03-gitbash.png)
